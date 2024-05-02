@@ -1,6 +1,6 @@
 import Head from 'next/head'; // Correct import statement for Head
 import { useEffect, useState } from 'react';
-import { Button, Form, Grid, Header, Message, Radio, Segment } from 'semantic-ui-react';
+import { Button, Form, Grid, Header, Message, Radio, Segment, Image } from 'semantic-ui-react';
 
 export default function Home() {
   const [dynamicUrl, setDynamicUrl] = useState("");
