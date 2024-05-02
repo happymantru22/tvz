@@ -66,7 +66,7 @@ export default function Home() {
               <Header as={'h1'}>Generate Tata Play m3u</Header>
               <Message>
                 <Message.Header>Dynamic URL to get m3u: </Message.Header>
-                <img src={`https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=${encodeURIComponent(dynamicUrl)}&size=small`} alt="QR Code" />
+                <Image src={`https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=${encodeURIComponent(dynamicUrl)}&size=small`} alt="QR Code" />
                 <p>
                   <a href={dynamicUrl}>{dynamicUrl}</a>
                 </p>
